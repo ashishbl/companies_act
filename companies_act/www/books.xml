@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bookstore>
+
+<book category="cooking">
+  rgghdbdhdhgd
+  <title lang="en">Everyday Italian<title1>123</title1></title>
+  <author>Giada De Laurentiis</author>
+  <year>2005</year>
+  <price>30.00</price>
+</book>
+
+<book category="children">
+  wfsdssgsgsgs
+  <title lang="en">Harry Potter<title1>456</title1></title>
+  <author>J K. Rowling</author>
+  <year>2005</year>
+  <price>29.99</price>
+</book>
+
+<book category="web">
+  sdsddvvsvsdvsv
+  <title lang="en">XQuery Kick Start<title1>789</title1></title>
+  <author>James McGovern</author>
+  <author>Per Bothner</author>
+  <author>Kurt Cagle</author>
+  <author>James Linn</author>
+  <author>Vaidyanathan Nagarajan</author>
+  <year>2003</year>
+  <price>49.99</price>
+</book>
+
+<book category="web">
+  sdascsscdss
+  <title lang="en">Learning XML<title1>012</title1></title>
+  <author>Erik T. Ray</author>
+  <year>2003</year>
+  <price>39.95</price>
+</book>
+
+
+<book category="games">
+  sdczxczxczvzvzvzv
+  <title lang="en">GTA VI<title1>345</title1></title>
+  <author>Amitabh Bachhan</author>
+  <year>2090</year>
+  <price>450</price>
+</book>
+
+
+
+</bookstore>

@@ -1,0 +1,34 @@
+<ion-view title="Companies Act 2013" style="background-color: #E4E2E1">
+
+    <ion-nav-buttons side="primary">
+        <a class="button icon-left ion-chevron-left button-clear" side="left" href="#/"></a>
+    </ion-nav-buttons>
+
+    <ion-content class="padding-15 has-header register">
+
+        <div ng-controller="finalctrl">
+            <h4>A mail has been sent to the specified email id. Please check your inbox. Also check your spam/junk folder.</h4>
+            <h4>Please enter the verification code received on your mail.</h4>
+
+            <form class="" name="verificationForm">
+                <div class="list">
+                    <label class="item item-input item-floating-label">
+                      <span class="input-label">Enter your verification code</span>
+                      <input type="text" placeholder="Enter your verification code">
+                    </label>
+                </div>
+
+                <div class="row">
+                    <a class="button button-assertive" ng-click="register()">submit</a>
+                </div>
+            </form>
+
+
+
+
+            <!--  <a class="button button-assertive" href="#/registration">Submit</a>  -->
+            <!-- <a class="button button-balanced" href="#/">Back</a> -->
+        </div>
+
+    </ion-content>
+</ion-view>

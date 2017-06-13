@@ -1,0 +1,58 @@
+<ion-view title="Companies Act 2013" style="background-color: #E4E2E1">
+
+    <ion-nav-buttons side="primary">
+        <a class="button icon-left ion-chevron-left button-clear" side="left" href="#/verification"></a>
+    </ion-nav-buttons>
+
+    <ion-content class="padding has-header register">
+        <div ng-controller="finalctrl">
+            <!--<h4>Enter the following details:</h4>-->
+            <form class="padding-25" name="registrationForm">
+                <div class="list">
+                    <label class="item item-input">
+                        <span class="input-label">Name :</span>
+                        <input type="text" placeholder="Enter your Name" ng-model="name"/>
+                    </label>
+                    <label class="item item-input">
+                        <span class="input-label">Cell No :</span>
+                        <input type="number" placeholder="Enter your Cell No." ng-model="mobileNo"/>
+                    </label>
+
+                    <label class="item item-input">
+                        <span class="input-label">Location :</span>
+                        <input type="text" placeholder="Enter your Location" ng-model="location"/>
+                    </label>
+
+                    <label class="item item-input">
+                        <span class="input-label">Profession:</span>
+                        <input type="text" placeholder="CA/CS/Student/Others" ng-model="profession"/>
+                    </label>
+                </div>
+                <ion-checkbox ng-model="">I agree to the <a href="#">Terms and Conditions</a></ion-checkbox>
+                <div class="row">
+                    <a class="button" href="#/main">submit</a>
+                </div>
+            </form>
+
+            <!--<div class="list list-inset">
+                <label class="item item-input item-input-wrapper">
+                <input type="text" placeholder="Name" ng-model="name"/>
+              </label>
+                <label class="item item-input item-input-wrapper">
+                <input type="number" placeholder="Mobile Number" ng-model="mobileNo"/>
+              </label>
+                <label class="item item-input item-input-wrapper">
+                <input type="text" placeholder="Location" ng-model="location"/>
+              </label>
+                <label class="item item-input item-input-wrapper">
+                <input type="text" placeholder="CA/CS/Student/Others" ng-model="profession"/>
+              </label>
+            </div>-->
+
+
+
+            <!-- <a class="button button-balanced" href="#/verification">Back</a> -->
+        </div>
+
+    </ion-content>
+</ion-view>

@@ -1,0 +1,113 @@
+/* Empty. Add your own CSS if you like */
+
+bar.bar-assertive.bar.bar-header {
+    background: #eb3237;
+}
+
+.bar.bar-dark {
+    border-color: #606060;
+    background-color: #606060;
+    background-image: linear-gradient(0deg, #606060, #606060 50%, transparent 50%);
+    color: #fff;
+}
+
+.ion-chevron-left:before {
+    font-size: 24px !important;
+}
+
+.bar-subheader {
+    height: 35px;
+}
+
+.bar-subheader .title {
+    height: 35px;
+    line-height: 35px;
+}
+
+.main-menu {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.main-menu a img {
+    margin: 5px 10px;
+}
+
+
+/*register start*/
+
+.register .item {
+    background: transparent;
+    border: 0px;
+}
+
+.register input {
+    border-bottom: 1px solid grey;
+}
+
+.register .input-label {
+    width: 28%;
+}
+
+.register input::placeholder {
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.register .list {
+    margin: 0px;
+}
+
+.register .button {
+    text-align: center;
+    margin: 0 auto;
+    background: grey;
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+}
+
+.register input:focus {
+    border-color: #eb3237;
+}
+
+
+/*register end*/
+
+
+/*chapter start*/
+
+.chapters .item {
+    border-color: #ddd;
+    background-color: transparent !important;
+    color: grey;
+    font-size: 16px;
+    border-bottom: 1px solid;
+    margin: 0px;
+}
+
+.chapters h2 {
+    color: #eb3237;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.chapters p {
+    margin-bottom: 0px;
+    line-height: 1.3;
+    font-size: 14px;
+}
+
+
+/*chapter end*/
+
+
+/*circular start*/
+
+.circular h2 {
+    color: grey;
+    font-size: 18px;
+}
+
+
+/*circular end*/
